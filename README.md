@@ -7,6 +7,7 @@ This repository contains the following files:
 2. run_analysis.R: script to analyze data from UCI Human project and generate "tidy_data.txt"
 3. tidy_data.txt : the data.frame resulting from the steps of the "run_analysis" script
 4. Codebook.txt: describes the variables contained in the tiny_data.txt file
+
 =================================================
 The following are the processing steps used to create the tidy dataset:
 
