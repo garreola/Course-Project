@@ -16,13 +16,21 @@ The following are the processing steps used to create the tidy dataset:
 3. Process "Testing" Data
 
     a. Load test data
+    
     b. Extract only variables containing information on mean and standard deviation measures
+    
     c. Load activity descriptions for testing data
+    
     d. Load subject id's for testing data & rename variable to "subject"
+    
     e. Combine subject id's and activities using cbind()
+    
     d. Combine subject, activities and testing data using cbind()
+    
     f. Add activity descriptions associated with each activity performed using merge()
+    
     g. Rename activities variable to "activity"
+    
     h. Create a clean dataset containing only extracted variables, subject ID and activity 
     
 4. Process "Training" Data
