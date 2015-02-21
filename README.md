@@ -14,6 +14,7 @@ The following are the processing steps used to create the tidy dataset:
 1. Download Files from UCI HAR Project and save to a local directory
 2. Load the features.txt file & extract the names contained in variable:V2
 3. Process "Testing" Data
+
     a. Load test data
     b. Extract only variables containing information on mean and standard deviation measures
     c. Load activity descriptions for testing data
@@ -23,6 +24,7 @@ The following are the processing steps used to create the tidy dataset:
     f. Add activity descriptions associated with each activity performed using merge()
     g. Rename activities variable to "activity"
     h. Create a clean dataset containing only extracted variables, subject ID and activity 
+    
 4. Process "Training" Data
   *follow steps a-h outlined in Step 3
 5. Merge the clean datasets created in steps 3g and 4g
