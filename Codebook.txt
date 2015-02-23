@@ -25,7 +25,7 @@ Variables in the dataset tidydata.txt:
 
 - [1]“activity"   : indicates the activity the subject was engaged in when the measure was obtained
 
-	values: 1=Walking; 2=  
+	values: 1=Walking; 2=Walking Upstairs; 3=Walking Downstairs; 4=Sitting; 5=Standing; 6=Laying
       
  -[2]“subject"    : this indicates the subject who carried out the activity; there were 30 total subjects, ID=1:30
 
